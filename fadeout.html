@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>image hide display examples</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>	
+	
+</head>
+<body>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		 $("button").click(function(){
+		   $("#img").fadeOut();
+		   $("#h1").fadeOut("slow");
+		   $("#p").fadeOut(3000);		
+		 })
+
+      })	
+
+	</script>
+
+<h1 id="h1">WELCOME TO <span style="color:blue">SAM'S GRAM</span>SOCIAL MEDIA</h1>	
+
+<img src="samlogo2.png" width="30%" id="img">
+
+<p id="p">GOOD PEOPLE BRING OUT THE GOOD IN PEOPLE</p>
+
+<button>fadeout Show</button>
+
+
+
+
+
+
+
+
+</body>
+</html>
